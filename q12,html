@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Text with Class Selectors</title>
+    <style>
+        p{
+            font-size: 16px;
+        }
+        .highlight{
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .note{
+            font-style: italic;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eius rem fugiat amet iure, doloremque accusamus labore accusantium, placeat harum aliquid, vero dicta odit cum repellendus temporibus! Doloremque, expedita quae!</p>
+    <br>
+    <p class="note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestias, dolorem perspiciatis tempore beatae alias quod repudiandae tenetur illum nesciunt magnam sit atque libero nihil saepe eligendi laboriosam ipsa quas.</p>
+     <br>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In at dicta et quam, eos saepe, ipsa sit vero officiis perferendis repellat quibusdam nulla pariatur eaque, itaque alias ratione facere recusandae.</p>
+</body>
+</html>
