@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Layout from Image</title>
+    <style>
+        header{
+            background-color: red;
+            text-align: center;
+            color: navy;
+        }
+        .firstanchor{
+            color: white;
+        }
+       #margin{
+        margin: 0%;
+        
+       }
+       #imgdiv{
+        height: 100px;
+        width: 100px;
+        border: solid;
+        border-color:bisque;
+       }
+       #project1{
+        border: solid;
+        border-color:bisque;
+        height: fit-content;
+        width: 1000000px;
+        padding: 1%;
+       }
+        footer{
+            background-color: red;
+            text-align: center;
+            color: white;
+        }
+            
+        
+    </style>
+</head>
+<body >
+    <div id="margin">
+    <header>
+        <h1 >Welcome to My Portfolio</h1><br>
+        <nav><a class="firstanchor" href="">Home</a>
+        <a class="firstanchor" href="">About</a>
+    <a class="firstanchor" href="">Projects</a>
+<a class="firstanchor" href="">Contact</a></nav>
+</header>
+<div>
+    <h2>About Me</h2>
+    <p>Hello I'm a web developer with a passion for creating functional and beautiful 
+        web applications.
+    </p>
+    <div id="imgdiv">
+<p style="font-size: smaller;">A picture of me</p>
+<img src="C:\Users\UDAYASARAN KUMAR\OneDrive\Desktop\New folder\cssstylingtheweb\DSC_041.JPG" alt="">
+    </div>
+    </div>
+    <h2>Projects</h2>
+    <div id="project1">
+        <h3>Project one:Personal Blog</h3><br>
+        <button type="button">Screenshot of my personal blog project</button>
+        <br>
+        <p>A personal blog where i write about web development,programming,and technology.</p>
+
+<a href="">View Project</a>
+<ul>
+    <li>
+        Technologies Used: <br>
+        <ul style="list-style-type: circle;">
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+
+    </li>
+</ul>
+    </div>
+    <br>
+    <div id="project1">
+        <h3>Project two:E-commerce website</h3><br>
+        <button type="button">Screenshot of my e-commerce project</button>
+        <br>
+        <p>An e-commerce website built to simulate a real-world online shopping experience..</p>
+<br>
+<a href="">View Project</a>
+<ul>
+    <li>
+        Technologies Used: <br>
+        <ul style="list-style-type: circle;">
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+
+    </li>
+</ul>
+    </div>
+</div>
+
+<h2>Contact Me</h2>
+<label for="name">Full Name:</label>
+<input type="text" name="name" id=""><br><br>
+<label for="email">Email:</label>
+<input type="email" name="email" id=""><br><br>
+<label for="message">Message</label><br>
+<textarea name="message" id=""></textarea><br><br>
+<input type="button" value="Submit">
+<footer>
+<p>&copy; 2024 My Portfolio</p>
+<p>Follow me on: <a href="">Twitter</a>| <a href="">Github</a></p>
+</footer>
+
+
+   
+</body>
+</html>
